@@ -5,11 +5,12 @@
 }
 
 body{
-    background: #f8f8ff;
+    background: #FFFFF0;
 }
 
 img{
-    width: 100%;
+    max-width: 100%;
+    height: auto;
     object-fit: cover;
     object-position: center;
 }
@@ -32,11 +33,11 @@ img{
 }
 
 .div-coding, .div-main-icon, .lien img{
-    width: 5%;
+    width: 6%;
 }
 
 .div-localisation{
-    width: 4%;
+    width: 4.5%;
 }
 
 .main{
@@ -44,7 +45,38 @@ img{
     overflow: auto;
 }
 
+.titre-main{
+    font-size: 1.25rem;
+}
+
+.h3-main, ul li{
+    font-size: 1rem;
+}
+
 .para{
     text-align: justify;
+    font-size: 1rem;
+    line-height: 1.5;
 }
+
+hr{
+    border: solid 1px black;
+}
+
+.chevron {
+    transition: transform 0.3s ease;
+  }
+  
+  .chevron.rotate {
+    transform: rotate(180deg);
+  }
+  
+  .content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+  }
+
+
+
 
