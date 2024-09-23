@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #f8f8ff;
+}
+
+img{
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.portfolio{
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+}
+
+.portfolio .header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.div-profil{
+    width: 35%;
+}
+
+.div-coding, .div-main-icon, .lien img{
+    width: 5%;
+}
+
+.div-localisation{
+    width: 4%;
+}
+
+.main{
+    height: 70vh;
+    overflow: auto;
+}
+
+.para{
+    text-align: justify;
+}
+
