@@ -45,6 +45,9 @@ img{
     height: 70vh;
     overflow: auto;
 }
+body::-webkit-scrollbar, .main::-webkit-scrollbar{
+    display: none;
+}
 
 .titre-main{
     font-size: 1.25rem;
