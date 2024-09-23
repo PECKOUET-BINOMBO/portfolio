@@ -8,6 +8,7 @@ body{
     background: #FFFFF0;
 }
 
+
 img{
     max-width: 100%;
     height: auto;
@@ -37,7 +38,7 @@ img{
 }
 
 .div-localisation{
-    width: 4.5%;
+    width: 4%;
 }
 
 .main{
@@ -77,6 +78,31 @@ hr{
     transition: max-height 0.3s ease-out;
   }
 
+  footer{
+    position: fixed;
+    bottom: 0;
+    background: #FFFFF0;
+  }
 
+@media screen and (min-width:768px) {
+    .portfolio{
+        width: 80%;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .portfolio{
+        width: 50%;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .portfolio{
+        width: 45%;
+        margin: auto;
+    }
+}
 
 
